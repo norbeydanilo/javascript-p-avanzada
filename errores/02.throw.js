@@ -56,5 +56,5 @@ try {
     sum("1", "2");
 } catch (e) {
     console.error(e); // TypeError: Can only add numbers
-    console.log('Se produjo un error. Referencia: '+ e);
+    console.log('Se produjo un error. Referencia: ' + e);
 }

@@ -33,8 +33,8 @@ try {
 
 // ****************************************************************
 
-function calculadoraCientifica (operacion, numero_1, numero_2) {
-    try{
+function calculadoraCientifica(operacion, numero_1, numero_2) {
+    try {
         // verificar si las entradas son númericas
         if (typeof numero_1 !== 'number' || typeof numero_2 !== 'number') {
             throw new Error("Las entradas deben ser numéricas");
@@ -54,7 +54,7 @@ function calculadoraCientifica (operacion, numero_1, numero_2) {
                     throw new Error("No se puede dividir por cero");
                 }
                 return numero_1 / numero_2;
-                break;  
+                break;
             case "potencia":
                 return numero_1 ** numero_2;
                 break;
@@ -66,7 +66,7 @@ function calculadoraCientifica (operacion, numero_1, numero_2) {
                 break;
             default:
                 throw new Error("Operación no válida");
-        return resultado;
+                return resultado;
         }
     } catch (error) {
         return error.message;
