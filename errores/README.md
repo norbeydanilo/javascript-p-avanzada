@@ -1,6 +1,6 @@
 # Ejercicios en JavaScript - Errores
 
-## Ejercicio-01
+## [Ejercicios-01](https://github.com/norbeydanilo/javascript-p-avanzada/blob/main/errores/ejercicios-01.js)
 
 ### Errores-01
 

@@ -1,6 +1,6 @@
 # Ejercicios en JavaScript - RegEx
 
-## Ejercicio-01
+## [Ejercicios-01](https://github.com/norbeydanilo/javascript-p-avanzada/blob/main/regex/ejercicios-01.js)
 
 ### RegEx-01
 
