@@ -1,4 +1,4 @@
-/*Arrow Functions.
+/* Arrow Functions.
  * Nueva forma de definir funciones anónimas que sean expresadas.
  * - Estas funciones pueden ser escritas en una sola línea de código.
  * - No es necesario escribir la palabra reservada function.
@@ -19,30 +19,30 @@ console.log(saludar())
 /*
  * Arrow functions
  * - Su sintaxis es la siguiente:
- *   const nombreFuncion=(parametros)=>{
- *     //código función
+ *   const nombreFuncion = (parametros) => {
+ *     // código función
  *   }
  * Cuando la función es de una linea se pueden omitir los corchetes
- *   const nombreFuncion=()=> //código función
+ *   const nombreFuncion = () => // código función
 */
 
 console.log("-----------Ejemplos arrow functions----------------")
 
 const despedir = () => {
-    console.log("Adios!")
+    return "Adios!"
 }
-despedir();
+console.log(despedir())
 
-const recibir = () => console.log("Recibido!");
-recibir();
+const recibir = () => "Recibido!";
+console.log(recibir())
 
 // Parámetros dentro de los parentesis o se pueden dejar sin los parentesis si es un solo parámetro
 
-const bienvenida = (nombre) => console.log(`Bienvenido(a) ${nombre}`);
-bienvenida("Luna");
+const bienvenida = (nombre) => `Bienvenido(a) ${nombre}`;
+console.log(bienvenida("Luna"));
 
-const despedida = nombre => console.log(`Hasta luego ${nombre}`);
-despedida("Luna");
+const despedida = nombre => `Hasta luego ${nombre}`;
+console.log(despedida("Luna"));
 
 // También se evita poner return cuando es solo una línea
 const sumar = (a, b) => a + b;
@@ -64,4 +64,4 @@ numeros.forEach(function (num, index) {
 
 console.log("-----------Ejemplo con Arrow functions---------------")
 
-numeros.forEach((num, index) => console.log(`El elemento ${num} esta en la posicion ${index}`))
+numeros.forEach((num, index) => console.log(`El elemento ${num} esta en la posicion ${index}`)) // 
